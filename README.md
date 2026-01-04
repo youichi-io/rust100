@@ -11,11 +11,22 @@ Rustの基礎力を鍛えるための「Rust 100本ノック」です。
 
 ```text
 
-problems/
-├─ no001/
-├─ no002/
-├─ no003/
-└─ ...
+rust100/
+├─ README.md                  ← 全体説明・導線
+├─ .gitignore
+├─ problems/
+│  ├─ README.md               ← 問題一覧・ナビゲーション
+│  ├─ no001/
+│  │  ├─ README.md            ← 問題文
+│  │  ├─ explain.md           ← 解説（考え方）
+│  │  ├─ Cargo.toml
+│  │  └─ src/
+│  │     ├─ main.rs           ← 自分の解答
+│  │     └─ bin/
+│  │        └─ ans.rs         ← 模範解答（cargo run --bin ans）
+│  ├─ no002/
+│  └─ ...
+
 ```
 
 
